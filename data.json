@@ -236,10 +236,10 @@
   ],
   "experience": [
     {
-      "period": "Oct 2022 - Mar 2023",
+      "period": "Oct 2022 – Mar 2023",
       "company": "V dot Technologies",
       "location": "Bengaluru",
-      "role": "Software Engineer - Data & Cloud Analytics",
+      "role": "Software Engineer – Data & Cloud Analytics",
       "achievements": [
         "Built AWS data pipelines processing 10M+ records daily with ML-powered classification and quality validation.",
         "Created NLP analytics dashboard automating insights from unstructured docs, cutting manual review by 40%.",
