@@ -1,0 +1,310 @@
+{
+  "personal": {
+    "name": "Diran Dodda",
+    "title": "AI Engineer | Multi-Agent Architect | LLM Systems",
+    "tagline": "Building autonomous, production-grade AI experiences.",
+    "description": "I design and ship intelligent systems that blend multi-agent LLMs, retrieval pipelines, and scalable MLOps. From autonomous financial analysts to BERT-grade sentiment engines, I turn complex data into decisive products.",
+    "email": "doddadiran@gmail.com",
+    "phone": "(331) 425-1963",
+    "github": "https://github.com/dirandodda",
+    "location": "Milwaukee & Bengaluru",
+    "badges": [
+      "Multi-agent orchestration",
+      "RAG + semantic search",
+      "AWS MLOps"
+    ]
+  },
+  "stats": [
+    {
+      "number": "200GB+",
+      "label": "Financial data autonomously processed"
+    },
+    {
+      "number": "15K/min",
+      "label": "Real-time BERT inferences"
+    },
+    {
+      "number": "92%",
+      "label": "Published NLP accuracy (Fake News)"
+    }
+  ],
+  "currentFocus": {
+    "title": "Agentic LLM Systems",
+    "description": "Designing autonomous agents that plan, retrieve, and act - powered by retrieval-augmented generation, vector search, and structured decision policies.",
+    "technologies": [
+      "LangChain",
+      "Claude / GPT-4",
+      "Tool use"
+    ],
+    "details": [
+      {
+        "label": "Deploy",
+        "value": "AWS (SageMaker, Lambda)"
+      },
+      {
+        "label": "APIs",
+        "value": "FastAPI - Flask"
+      },
+      {
+        "label": "Data",
+        "value": "Kafka - Spark - FAISS"
+      },
+      {
+        "label": "Interfaces",
+        "value": "Streamlit - React"
+      }
+    ]
+  },
+  "summary": [
+    {
+      "title": "Operationalized intelligence",
+      "description": "Shipped multi-agent and RAG pipelines that automate financial analysis, reduce manual review by 70%, and deliver context-aware insights at production scale."
+    },
+    {
+      "title": "Low-latency systems",
+      "description": "Built BERT-driven sentiment inference serving 15K tweets per minute with sub-100ms latency, plus monitoring for drift and automated retraining."
+    },
+    {
+      "title": "Cloud-native MLOps",
+      "description": "Containerized deployments on AWS with CI/CD, GPU cost optimizations, and robust APIs\u2014keeping models fresh and reliable in the wild."
+    }
+  ],
+  "skills": [
+    {
+      "category": "AI & LLM Frameworks",
+      "technologies": "LangChain, LlamaIndex, OpenAI API, Hugging Face Transformers, Claude API."
+    },
+    {
+      "category": "Deep Learning",
+      "technologies": "PyTorch, TensorFlow, Keras, fine-tuning LLMs, transfer learning, neural architecture design."
+    },
+    {
+      "category": "NLP",
+      "technologies": "BERT, LSTM, GPT, T5, Sentence Transformers, prompt engineering, RAG systems."
+    },
+    {
+      "category": "Vector & Retrieval",
+      "technologies": "FAISS, Pinecone, Chroma, semantic search, embedding pipelines, document retrieval."
+    },
+    {
+      "category": "MLOps & Deployment",
+      "technologies": "AWS (SageMaker, Lambda, EC2), Docker, CI/CD, model serving, FastAPI/Flask APIs."
+    },
+    {
+      "category": "Data & Engineering",
+      "technologies": "Python, SQL, PySpark, Kafka, Airflow, ETL at scale, interactive AI interfaces (Streamlit, Gradio, React)."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Agentic AI Financial Analyst",
+      "description": "Autonomous multi-agent system processing 200GB+ of market data with FAISS-indexed SEC filings and ensemble forecasting.",
+      "tag": "LangChain - GPT-4 - AWS",
+      "github": "https://github.com/niftydiran-ui/Financial-ai-agent",
+      "highlights": [
+        "ReAct-style orchestration across 4 specialized agents with LangChain tool-use framework.",
+        "Prophet + XGBoost ensemble achieving R^2 0.88 for price signal predictions.",
+        "Streamlit interface for natural-language queries cutting analysis time by 70%.",
+        "Walk-forward validation with automated metrics tracking (MAE, RMSE, MAPE)."
+      ]
+    },
+    {
+      "title": "Real-Time Twitter Sentiment Analysis",
+      "description": "Production BERT inference stack serving 15K tweets/min with sub-100ms latency for brand monitoring.",
+      "tag": "PyTorch - Kafka - BERT",
+      "github": "https://github.com/niftydiran-ui/twittersentiment",
+      "highlights": [
+        "Streaming NLP architecture (Kafka + PySpark + BERT) with intelligent caching for burst traffic.",
+        "LSTM and BERT ensemble classifying tweets into Positive/Negative/Neutral sentiment.",
+        "Live Streamlit dashboard enabling faster response to sentiment swings.",
+        "Fine-tuned domain models boosting accuracy by 12% over baseline transformers."
+      ]
+    },
+    {
+      "title": "Agentic Stock Price Predictor",
+      "description": "ML-driven stock prediction with walk-forward backtesting and automated trading signals.",
+      "tag": "XGBoost - yfinance - Python",
+      "github": "https://github.com/niftydiran-ui/stockprediction",
+      "highlights": [
+        "Technical feature engineering with RSI, MACD, Bollinger Bands, and rolling statistics.",
+        "Walk-forward validation with transaction cost modeling (2 bps per trade).",
+        "Automated equity curve and drawdown analysis with metrics (CAGR, Sharpe, max drawdown).",
+        "Agent-based architecture following Observe-Think-Act-Reflect pattern for autonomous trading."
+      ]
+    },
+    {
+      "title": "Conversational AI Support Bot",
+      "description": "GPT-powered chatbot with RAG system resolving 85% of 1K+ daily support tickets across 5K+ docs.",
+      "tag": "OpenAI - Pinecone - React",
+      "highlights": [
+        "Production prompts with conversation memory and safety guardrails.",
+        "Vector search over company knowledge base using Pinecone embeddings.",
+        "Feedback loop capturing failed queries for iterative tuning and improvement.",
+        "Seamless context handoff to human agents with conversation state preservation."
+      ]
+    },
+    {
+      "title": "Fake News Detection AI",
+      "description": "Published NLP classifier achieving 92% accuracy on 20K+ news articles with explainability.",
+      "tag": "TensorFlow - BERT - LIME",
+      "highlights": [
+        "Compared BERT transformers vs. traditional ML pipelines (SVM, Random Forest, Naive Bayes).",
+        "Attention weight visualizations showing model reasoning for interpretability.",
+        "Linguistic and credibility feature engineering improving robustness to adversarial examples.",
+        "Published in International Journal of Advanced Computer Science (2024)."
+      ]
+    },
+    {
+      "title": "Hospital Resource Optimization Agent",
+      "description": "Multi-agent RL system with LSTM forecasting reducing ICU wait times and emergency latency.",
+      "tag": "Reinforcement Learning - LSTM - FastAPI",
+      "highlights": [
+        "Integrated Prophet/LSTM admission forecasts with RL policies for dynamic bed allocation.",
+        "Multi-objective optimization balancing wait times, utilization, and patient outcomes.",
+        "Simulation environment for policy validation before production rollout.",
+        "FastAPI deployment handling 1000+ req/sec with real-time decisions."
+      ]
+    },
+    {
+      "title": "Hybrid Music Recommender System",
+      "description": "IEEE-published neural recommender achieving MAP@10: 0.85 via collaborative + content fusion.",
+      "tag": "PyTorch - RecSys",
+      "highlights": [
+        "Two-tower architecture learning user/item embeddings over 1M+ interactions.",
+        "Cold-start solved via content features (audio, metadata, lyrics).",
+        "A/B tests demonstrated double-digit relevance lift and engagement.",
+        "Published at IEEE Conference on Recommender Systems (2023)."
+      ]
+    },
+    {
+      "title": "Data Science Practice Portfolio",
+      "description": "Comprehensive notebooks covering deep learning, NLP, CV, and data analysis workflows.",
+      "tag": "Python - Jupyter - scikit-learn",
+      "github": "https://github.com/niftydiran-ui/data-science-ipython-notebooks",
+      "highlights": [
+        "End-to-end ML pipelines from data preprocessing to deployment.",
+        "Advanced visualization with Matplotlib, Seaborn, and Plotly.",
+        "Statistical analysis, hypothesis testing, and experiment tracking.",
+        "Reproducible research patterns for faster iteration."
+      ]
+    },
+    {
+      "title": "NLP Entity Recognition System",
+      "description": "spaCy-based NER pipeline with custom training and production API serving.",
+      "tag": "spaCy - NLP - Python",
+      "github": "https://github.com/niftydiran-ui/spacy",
+      "highlights": [
+        "Custom entity models trained on domain-specific datasets.",
+        "Efficient text processing pipelines handling millions of documents.",
+        "Integration with knowledge graphs for entity linking and disambiguation.",
+        "RESTful API for real-time entity extraction in production."
+      ]
+    },
+    {
+      "title": "Agentic RAG with CrewAI",
+      "description": "Personal project exploring CrewAI multi-agent RAG patterns with orchestrated roles.",
+      "tag": "CrewAI - RAG - Python",
+      "github": "https://github.com/niftydiran-ui/agentic-rag-with-crewai",
+      "highlights": [
+        "Crew of manager/worker agents for retrieval, reasoning, and synthesis.",
+        "Config-driven pipeline to swap tools and data sources quickly.",
+        "Lightweight evaluation hooks for prompt and retrieval quality."
+      ]
+    },
+    {
+      "title": "Multi-Agentic RAG",
+      "description": "Interactive RAG application built for parallel agent workflows and continuous learning.",
+      "tag": "LangChain - RAG - Python",
+      "github": "https://github.com/niftydiran-ui/multi-agentic-rag",
+      "highlights": [
+        "Parallel retriever/synthesizer agents with shared memory.",
+        "Topic-aware chunking to keep context relevant and concise.",
+        "CLI + notebook utilities for quick experimentation."
+      ]
+    },
+    {
+      "title": "Profile & Branding (niftydiran-ui)",
+      "description": "Public GitHub profile README highlighting AI focus and project links.",
+      "tag": "Markdown",
+      "github": "https://github.com/niftydiran-ui/niftydiran-ui",
+      "highlights": [
+        "Elevator pitch and skills snapshot for recruiters and collaborators.",
+        "Links out to flagship AI/ML projects and notebooks.",
+        "Lightweight, fast-loading profile landing page."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "period": "Oct 2022 - Mar 2023",
+      "company": "V dot Technologies",
+      "location": "Bengaluru",
+      "role": "Software Engineer - Data & Cloud Analytics",
+      "achievements": [
+        "Built AWS data pipelines processing 10M+ records daily with ML-powered classification and quality validation.",
+        "Created NLP analytics dashboard automating insights from unstructured docs, cutting manual review by 40%.",
+        "Production anomaly detection boosted issue discovery by 30% over rule-based baselines.",
+        "Designed CI/CD for model rollout with Docker + CodePipeline enabling weekly AI updates.",
+        "Optimized GPU workloads via spot strategies and batching, trimming compute spend by 15%.",
+        "Mentored engineers on deep learning, prompt design, and AI architecture."
+      ],
+      "technologies": "Python, TensorFlow, PyTorch, Transformers, AWS (EC2, Lambda, SageMaker, S3), Docker."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science, Data Science",
+      "institution": "University of Wisconsin-Milwaukee",
+      "period": "Graduated Jun 2025",
+      "gpa": "GPA 3.8/4.0",
+      "focus": "Focus: Deep Learning, NLP, AI Systems.",
+      "coursework": "Coursework: Deep Learning, NLP, Neural Networks, Reinforcement Learning, AI Ethics."
+    },
+    {
+      "degree": "Bachelor of Technology, Data Science",
+      "institution": "Jain University",
+      "period": "Graduated May 2022",
+      "location": "Bengaluru, India"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Fake News Detection Using NLP",
+      "venue": "International Journal of Advanced Computer Science (2024)",
+      "description": "Deep learning classifier with 92% accuracy; compared transformers vs. traditional ML with interpretability.",
+      "tag": "Published"
+    },
+    {
+      "title": "Hybrid Music Recommender System",
+      "venue": "IEEE Conference Paper (2023)",
+      "description": "Neural collaborative filtering fused with content-based deep learning achieving MAP@10: 0.85.",
+      "tag": "IEEE"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "PCAP \u2013 Certified Associate Python Programmer",
+      "issuer": "Python Institute",
+      "id": "ID: vB99.kWT4.qdWW",
+      "status": "Completed"
+    },
+    {
+      "name": "AWS Certified Solutions Architect \u2013 Associate",
+      "issuer": "In Progress",
+      "id": "Exam: Dec 2025",
+      "status": "In progress"
+    },
+    {
+      "name": "LangChain for LLM Application Development",
+      "issuer": "DeepLearning.AI",
+      "id": "Completed",
+      "status": "Completed"
+    },
+    {
+      "name": "OpenAI Prompt Engineering Course",
+      "issuer": "Completed",
+      "id": "",
+      "status": "Completed"
+    }
+  ]
+}

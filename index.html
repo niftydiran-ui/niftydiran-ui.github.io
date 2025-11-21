@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diran Dodda | AI Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loader-wrapper">
+    <div class="loader">
+      <div class="loader-ring"></div>
+      <div class="loader-text">Loading</div>
+    </div>
+  </div>
+
+  <div class="backdrop">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="orb orb-c"></div>
+    <div class="grid-overlay"></div>
+    <canvas id="particle-canvas"></canvas>
+  </div>
+
+  <header class="nav">
+    <div class="brand" id="nav-brand">Diran Dodda</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions" id="nav-actions">
+      <a class="ghost" id="nav-email" href="mailto:doddadiran@gmail.com">Email</a>
+      <a class="pill" id="nav-github" href="https://github.com/dirandodda" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero panel reveal">
+      <div class="hero-text">
+        <div class="eyebrow" id="hero-eyebrow">AI Engineer - Multi-Agent Architect - LLM Systems</div>
+        <h1 id="hero-title">Building autonomous, production-grade AI experiences.</h1>
+        <p class="lede" id="hero-description">I design and ship intelligent systems that blend multi-agent LLMs, retrieval pipelines, and scalable MLOps. From autonomous financial analysts to BERT-grade sentiment engines, I turn complex data into decisive products.</p>
+        <div class="badge-row" id="hero-badges">
+          <span class="badge">Multi-agent orchestration</span>
+          <span class="badge">RAG + semantic search</span>
+          <span class="badge">AWS MLOps</span>
+        </div>
+        <div class="cta-row">
+          <a class="pill" id="hero-cta-email" href="mailto:doddadiran@gmail.com">Let's collaborate</a>
+          <a class="ghost" id="hero-cta-github" href="https://github.com/dirandodda" target="_blank" rel="noreferrer">View GitHub</a>
+        </div>
+        <div class="stat-row" id="hero-stats">
+          <div class="stat">
+            <div class="stat-number">200GB+</div>
+            <div class="stat-label">Financial data autonomously processed</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">15K/min</div>
+            <div class="stat-label">Real-time BERT inferences</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">92%</div>
+            <div class="stat-label">Published NLP accuracy (Fake News)</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card-header">
+          <div>
+            <div class="tiny">Current focus</div>
+            <div class="card-title" id="focus-title">Agentic LLM Systems</div>
+          </div>
+          <div class="pulse-dot"></div>
+        </div>
+        <div class="card-body">
+          <div class="chip-row" id="focus-chips">
+            <span class="chip">LangChain</span>
+            <span class="chip">Claude / GPT-4</span>
+            <span class="chip">Tool use</span>
+          </div>
+          <p id="focus-description">Designing autonomous agents that plan, retrieve, and act—powered by retrieval-augmented generation, vector search, and structured decision policies.</p>
+          <div class="mini-grid" id="focus-details">
+            <div>
+              <div class="mini-label">Deploy</div>
+              <div class="mini-value">AWS (SageMaker, Lambda)</div>
+            </div>
+            <div>
+              <div class="mini-label">APIs</div>
+              <div class="mini-value">FastAPI - Flask</div>
+            </div>
+            <div>
+              <div class="mini-label">Data</div>
+              <div class="mini-value">Kafka - Spark - FAISS</div>
+            </div>
+            <div>
+              <div class="mini-label">Interfaces</div>
+              <div class="mini-value">Streamlit - React</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel highlight reveal">
+      <div class="section-heading">
+        <div class="eyebrow">Professional Summary</div>
+        <h2>Pragmatic builder of AI products end-to-end.</h2>
+      </div>
+      <div class="summary-grid" id="summary-grid">
+        <!-- Summary items loaded from JSON -->
+      </div>
+    </section>
+
+    <section id="skills" class="panel reveal">
+      <div class="section-heading">
+        <div class="eyebrow">Technical Range</div>
+        <h2>Tools to invent, iterate, and deploy.</h2>
+      </div>
+      <div class="skills-grid" id="skills-grid">
+        <!-- Skills loaded from JSON -->
+      </div>
+    </section>
+
+    <section id="projects" class="panel highlight reveal">
+      <div class="section-heading">
+        <div class="eyebrow">AI Engineering Projects</div>
+        <h2>Multi-agent, retrieval-first, and production-ready.</h2>
+      </div>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Projects loaded from JSON -->
+      </div>
+    </section>
+
+    <section id="experience" class="panel reveal">
+      <div class="section-heading">
+        <div class="eyebrow">Professional Experience</div>
+        <h2>Shipping AI features with measurable impact.</h2>
+      </div>
+      <div class="timeline" id="experience-timeline">
+        <!-- Experience loaded from JSON -->
+      </div>
+    </section>
+
+    <section id="education" class="panel highlight reveal">
+      <div class="section-heading">
+        <div class="eyebrow">Academic</div>
+        <h2>Learning and research.</h2>
+      </div>
+      <div class="edu-grid" id="education-grid">
+        <!-- Education loaded from JSON -->
+      </div>
+    </section>
+
+    <section class="panel reveal">
+      <div class="section-heading">
+        <div class="eyebrow">Publications</div>
+        <h2>Research with production perspective.</h2>
+      </div>
+      <div class="list-block" id="publications-list">
+        <!-- Publications loaded from JSON -->
+      </div>
+    </section>
+
+    <section class="panel highlight reveal">
+      <div class="section-heading">
+        <div class="eyebrow">Certifications</div>
+        <h2>Validating skills formally.</h2>
+      </div>
+      <div class="list-block" id="certifications-list">
+        <!-- Certifications loaded from JSON -->
+      </div>
+    </section>
+
+    <section id="contact" class="panel reveal">
+      <div class="section-heading">
+        <div class="eyebrow">Contact</div>
+        <h2>Let's build something intelligent.</h2>
+      </div>
+      <div class="contact-grid" id="contact-grid">
+        <!-- Contact info loaded from JSON -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span id="footer-name">Diran Dodda — AI Engineer & LLM Systems</span>
+    <span class="dot">&bull;</span>
+    <span id="footer-location">Based in Milwaukee & Bengaluru</span>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
